@@ -62,19 +62,20 @@ You can either:
 
 Use the Python API:
 
-python
-Copy
-Edit
+```python
+
 from engine.core.app import game_loop
 
 if __name__ == "__main__":
     game_loop()
+```
+
 Or run your main script (CustomEngine.py) directly:
 
-bash
-Copy
-Edit
+```bash
 python CustomEngine.py
+```
+
 🎮 Controls
 Key	Action
 WASD	Move camera or selected object
@@ -91,9 +92,7 @@ L	Load scene
 ESC	Quit
 
 🗂️ Project Structure
-pgsql
-Copy
-Edit
+```pgsql
 master
 │   CustomEngine.py
 │   CustomEngine.pyproj
@@ -131,13 +130,16 @@ master
 └───game_assets
         Don't Put That in the Microwave.mp4
         notlooking.png
+```
 When you press L, a Tkinter window will display all available .json scenes sorted by date.
 
-⚠️ License
+License:
+
 This project is unlicensed.
 Feel free to use, modify, share, or do whatever you like.
 
-🙏 Acknowledgements
+Acknowledgements:
+
 PyOpenGL
 
 Pygame
