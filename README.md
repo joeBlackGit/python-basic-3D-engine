@@ -55,6 +55,8 @@ Make sure you have **Python 3.9+** and install the dependencies:
 
 ```bash
 pip install numpy PyOpenGL pygame
+```
+
 🚀 Running the Project
 You can either:
 
